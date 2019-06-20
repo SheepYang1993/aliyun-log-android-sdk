@@ -33,5 +33,6 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.4.1'
     compile 'com.squareup.okio:okio:1.9.0'
     compile 'org.greenrobot:greendao:3.2.2'
-    compile files('libs/aliyun-log-sdk-android-2.1.0.jar')
+//    compile files('libs/aliyun-log-sdk-android-2.1.0.jar')
+    compile project(':aliyun-sls-android-sdk')
 }
